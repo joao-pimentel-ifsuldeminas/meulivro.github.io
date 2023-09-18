@@ -1,0 +1,38 @@
+
+#ml{
+    color: #ffff;
+    background-color: black;
+    border-width: 1920px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    height: 61px;
+}
+
+.letrah1 {
+  
+    
+top: 14px;
+left: 360px;
+width: 118px;
+height: 33px;
+text-align: left;
+font: normal normal bold 25px/33px Segoe UI;
+letter-spacing: 0px;
+color: #C4C4C4;
+opacity: 1;
+
+}
+
+.letrah2 {
+
+    top: 20px;
+left: 1469px;
+width: 91px;
+height: 21px;
+text-align: left;
+font: normal normal normal 16px/21px Segoe UI;
+letter-spacing: 0px;
+color: #C4C4C4;
+opacity: 1;
+
+}
