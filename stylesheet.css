@@ -1,53 +1,35 @@
-#topo {
+#b1 {
 
-    background-color: black;
-    max-width: none;
+    background-color: #ffff00;
+    display: block;
+    width: 100%;
     height: 61px;
-    display: inline-flex;
-    background-position: 1920px;
-   
-  
+
+
 }
 
-body {
+.b2 {
 
-    display: inline-flex;
-    margin: 0px;
-    max-width: 1920px;
-    overflow: visible;
-    background-position: 1920px;
-}
-.menu {
+    background-color: blue;
+    width: 1200px;
+    height: 61px;
+    display: flex;
+    border-width: 1200px;
 
-    color: #c4c4c4;
-    margin-left: 360px;
-    margin-right: 1829px;
-    top: 14px;
-    left: 360px;
-    width: 118px;
-    height: 33px;
-    text-align: left;
-    font: normal normal bold 25px/33px Segoe UI;
-    letter-spacing: 0px;
-    color: #C4C4C4;
-    opacity: 1;
-    overflow: visible;
-}
-
-.conosco {
     
-    margin-top: 20px;
-    margin-left: 1560px;
-    margin-right: 1000px;
+}
 
-    top: 20px;
-    left: 1469px;
-    width: 91px;
-    height: 21px;
-    text-align: left;
-    font: normal normal normal 16px/21px Segoe UI;
-    letter-spacing: 0px;
-    color: #C4C4C4;
-    opacity: 1;
+.b3 {
+
+    background-color: green;
+
+
+}
+
+.b4 {
+
+    background-color: plum;
+
+    
 
 }
