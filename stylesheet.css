@@ -1,7 +1,7 @@
 
 .barra {
 
-    background-color: yellow;
+    background-color: black;
     height: 61px;
     width: auto;
     display: flex;
@@ -13,36 +13,41 @@
 
 .brazul{
 
-    background-color: blue;
+    background-color: black;
     height: 100%;
     width: 1200px;
     display: inline-flex;
-    
+    align-items: center;
     justify-content: space-between;
     
 
 }
 
 .menu {
-    background-color: green;
+    
     height: 100%;
     padding: 0px;
     margin: 0px;
-    color: black;
+    color: #c4c4c4;
     font: normal normal bold 25px/33px Segoe UI;
+    letter-spacing: 0px;
+    opacity: 1;
     text-align: justify;
     float: inline-end;
+    margin-top: 14px;
     
 }
 
 .fc {
     
-    background-color: pink;
+    
     margin: 0px;
     padding: 0px;
     height: 100%;
-    color: black;
+    margin-top: 20px;
+    color: #c4c4c4;
     font: normal normal normal 16px/21px Segoe UI;
+    opacity: 1;
     float: inline-end;
     
     
