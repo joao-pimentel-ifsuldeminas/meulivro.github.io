@@ -1,35 +1,69 @@
-#b1 {
 
-    background-color: #ffff00;
-    display: block;
-    width: 100%;
+.barra {
+
+    background-color: yellow;
     height: 61px;
-
-
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
 
-.b2 {
+.brazul{
 
     background-color: blue;
+    height: 100%;
     width: 1200px;
-    height: 61px;
-    display: flex;
-    border-width: 1200px;
-
+    display: inline-flex;
     
+    justify-content: space-between;
+    
+
 }
 
-.b3 {
-
+.menu {
     background-color: green;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    font: normal normal bold 25px/33px Segoe UI;
+    text-align: justify;
+    float: inline-end;
+    
+}
 
+.fc {
+    
+    background-color: pink;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    color: black;
+    font: normal normal normal 16px/21px Segoe UI;
+    float: inline-end;
+    
+    
+}
+
+.meio {
+
+    background-color: #DCDCDC;
+    height: 1080px;
+    max-width: 1920px;
+    align-items: center;
+    
+}
+
+.msg {
+
+   
 
 }
 
-.b4 {
-
-    background-color: plum;
-
-    
+.mm {
+   
 
 }
