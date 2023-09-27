@@ -30,10 +30,12 @@
 
 .meio {
     background-color: yellow;
+    min-height: 500px;
 }
 
 .final {
     background-color: #cccccc;
+    
 }
 
 .link {
@@ -44,7 +46,7 @@
 /* funcionamento do responsive */
 @media (max-width: 1200px) {
     .comprimento{
-        background-color: aqua;
+        background-color: transparent;
         width: 80%;
     }
 }
