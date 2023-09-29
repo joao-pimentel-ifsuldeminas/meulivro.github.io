@@ -188,7 +188,7 @@ fieldset {
 }
 
 
-.submit-esquerdo  {
+.submit-esquerdo {
 
     margin-top: 0;
     width: 249px;
@@ -298,9 +298,22 @@ a:hover {
     filter: brightness(0.85);
 }
 
-.botao:hover{
+.botao:hover {
 
     background-color: #f7f6f6;
+}
+
+.imagem {
+
+    margin-top: 20px;
+
+}
+
+.input:hover {
+
+
+    background-color: #f7f6f6;
+
 }
 
 /* funcionamento do responsive */
