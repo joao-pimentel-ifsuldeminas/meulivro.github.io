@@ -8,31 +8,77 @@
 		<link rel="stylesheet" type="text/css" href="./stylesheet.css" media="screen" />
 	</head>
 
-<body>
+	<body>
 
-	<div id="pagina">
-		<div class="topo">
-			<div class="menu comprimento centralizado">
-				<div class="titulo"> <a class="link-meu-livro" href="./index.html"> Meu Livro </a> </div>
-				<div class="item-topo"> <a class="link-fale-conosco" href="./fale_conosco.html"> Fale Conosco </a> </div>
-			</div>
-	
-		</div>
-		<div class="meio comprimento centralizado">
-			<div class="sub-topo"> <a class="link-sub-topo-pagina-inicial" href="./index.html">Página inicial > </a>
-				<a class="link-sub-topo-fale-conosco" href="./fale_conosco.html"> Fale Conosco </a>
+		<div id="pagina">
+			<div class="topo">
+				<div class="menu comprimento centralizado">
+					<div class="titulo"> <a title="Acessar Página Inicial" class="link-meu-livro" href="./index.html">
+							Meu Livro </a> </div>
+					<div class="item-topo"> <a title="Acessar Página Fale Conosco" class="link-fale-conosco"
+							href="./fale_conosco.html"> Fale Conosco </a>
+					</div>
+				</div>
+
+			</div class="meio comprimento centralizado">
+			<div class="sub-topo comprimento centralizado"> <a title="Acessar Página Inicial"
+					class="link-sub-topo-pagina-inicial" href="./index.html">Página inicial > </a>
+				<a title="Acessar Página Fale Conosco" class="link-sub-topo-fale-conosco comprimento centralizado"
+					href="./fale_conosco.html"> Fale Conosco </a>
 			</div>
 
-			<div class="miolo-pagina">
-				<div class="conteudo-do-miolo"></div>
+				<div class="Texto-entre-contato comprimento centralizado"> <p> <strong> Entre em contato conosco </strong> </p> </div>
+				
+				<div class="Texto-queremos-ouvir comprimento centralizado"> <p > Queremos ouvir você! Estamos aqui para responder às suas perguntas, ouvir suas opiniões e ajudá-lo! </p> </div>
+
+			<div class="box comprimento centralizado"> 
+
+				<form>
+
+					<fieldset>
+						<div class="imputbox ">
+							<label for="nome" class="labelinput "> Seu nome </label>
+							
+							<input type="text" name="nome" id="nome" class="inputuser" required>
+							<div class="texto-vermelho"> O nome é obrigatório. </div>
+						</div>
+						
+						<div class="imputbox">
+							<label for="email" class="labelinput"> Seu Email </label>
+							
+							<input type="email" name="Email" id="email" class="inputuser" required>
+							
+							<span class="texto-vermelho"> O email é obrigatório. </span>
+						</div>
+						
+						<div class="imputbox ">
+							<label for="mensagem" class="labelinput"> Sua mensagem </label>
+							
+							<input type="text" name="mensagem" id="mensagem" class="inputuser" required>
+							<span class="texto-vermelho"> A mensagem é obrigatória. </span>
+						</div>
+						
+						<div class="botao"></div>
+						<div class="box-enviar"> <button type="text" name="submit" class="submit-esquerdo botao"
+								href="./index.html"> <a class="link-button" href="./index.html"> Voltar para Página
+									inicial </a></button>
+							<button type="submit" name="submit" class="submit-direito botao" required> <a class="link-button"
+									href="./mensagem.html" required> enviar </a></button>
+						</div>
+						
+					</fieldset>
+				</form>
 			</div>
-		</div>
-		<footer class="final ">
-			<div class="rodape centralizado">
-				<p> <strong>front-end Developer:</strong> João Pimentel | <strong>UI designer:</strong> Igor Moreira
-				</p>
+
+			<div>
+				<footer class="final ">
+					<div class="rodape centralizado">
+						<p> <strong>front-end Developer:</strong> João Pimentel | <strong>UI designer:</strong> Igor
+							Moreira
+						</p>
+					</div>
+				</footer>
 			</div>
-		</footer>
-	</div>
-</body>
+	</body>
+
 </html>
