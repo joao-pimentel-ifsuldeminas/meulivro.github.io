@@ -316,6 +316,52 @@ a:hover {
 
 }
 
+/* Atividade do quadrado  */
+
+.descriçao {
+
+    width: 1200px;
+    height: 120px;
+    text-align: center;
+    margin-top: 40px;
+    font: normal normal bold 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.sub-descriçao {
+
+    padding-top: 72px;
+    text-align: left;
+    font: normal normal normal 18px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.artigo {
+
+    background-color: #FE6C6C;
+    width: 1200px;
+    height: 555px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.sub-artigo {
+
+    width: 1200px;
+    height: 483px;
+    background-color: blue;
+    margin-top: 72px;
+}
+
+.Ajuste-imagem{
+
+    width: 131px;
+    height: 131px;
+}
 /* funcionamento do responsive */
 
 @media (max-width: 1200px) {
