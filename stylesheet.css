@@ -134,22 +134,14 @@ form {
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
-
-
 }
 
 .box {
-
-
     display: flex;
     margin-top: 40px;
-
-
-
 }
 
 fieldset {
-
     border: none;
     opacity: 1;
     width: 100%;
@@ -159,27 +151,19 @@ fieldset {
 .inputbox {
     display: flex;
     flex-direction: column;
-
-
-
 }
 
 .inputuser {
     font-size: 15px;
     width: 100%;
     letter-spacing: 2px;
-
-
 }
 
 .labelinput {
     top: 0px;
     left: 0px;
     pointer-events: none;
-
-
 }
-
 
 .box-enviar {
     display: flex;
@@ -187,9 +171,7 @@ fieldset {
     justify-content: space-between;
 }
 
-
 .submit-esquerdo {
-
     margin-top: 0;
     width: 249px;
     background: #ffffff 0% 0% no-repeat padding-box;
@@ -200,7 +182,6 @@ fieldset {
 }
 
 .submit-direito {
-
     margin-top: 0;
     width: 95px;
     background: #ffffff 0% 0% no-repeat padding-box;
@@ -211,12 +192,10 @@ fieldset {
 }
 
 img {
-
     width: 100%;
 }
 
 input#nome.inputuser {
-
     width: 80%;
     height: 35px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -227,7 +206,6 @@ input#nome.inputuser {
 }
 
 input#email.inputuser {
-
     width: 80%;
     height: 35px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -238,7 +216,6 @@ input#email.inputuser {
 }
 
 input#mensagem.inputuser {
-
     width: 100%;
     height: 125px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -250,7 +227,6 @@ input#mensagem.inputuser {
 
 
 .Texto-entre-contato {
-
     margin-top: 30px;
     text-align: left;
     font: normal normal bold 20px/27px Segoe UI;
@@ -261,27 +237,22 @@ input#mensagem.inputuser {
 }
 
 .Texto-queremos-ouvir {
-
     text-align: left;
     font: normal normal normal 18px/24px Segoe UI;
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
     margin-bottom: 40px;
-
 }
 
 p.queremos-ouvir {
-
     font: normal normal normal 18px/24px Segoe UI;
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
-
 }
 
 .texto-vermelho {
-
     display: inline-flex;
     background-color: #FE6C6C;
     text-align: left;
@@ -293,33 +264,24 @@ p.queremos-ouvir {
 }
 
 a:hover {
-
-    /* background-color: yellow; */
     filter: brightness(0.85);
 }
 
 .botao:hover {
-
     background-color: #f7f6f6;
 }
 
 .imagem {
-
     margin-top: 20px;
-
 }
 
 .input:hover {
-
-
     background-color: #f7f6f6;
-
 }
 
 /* Atividade do quadrado  */
 
 .descriçao {
-
     width: 1200px;
     height: 120px;
     text-align: center;
@@ -331,7 +293,6 @@ a:hover {
 }
 
 .sub-descriçao {
-
     padding-top: 72px;
     text-align: left;
     font: normal normal normal 18px/24px Segoe UI;
@@ -341,32 +302,20 @@ a:hover {
 }
 
 .artigo {
-
-    /* background-color: #FE6C6C; */
     width: 1200px;
     height: 555px;
     margin-top: 40px;
-    /* text-align: center; */
     font: normal normal bold 20px/27px Segoe UI;
     color: #707070;
-
-
-
 }
 
 .bloco-artigo {
-
     width: 800px;
-    /* height: 131px; */
     display: flex;
     flex-direction: row;
-    /* background-color: blue; */
-    /* margin-top: 10px; */
-
 }
 
 .img-artigo {
-
     width: 131px;
     height: 131px;
     float: left;
@@ -374,29 +323,16 @@ a:hover {
 }
 
 .conteudo-artigo {
-
-    /* width: 87.5%;
-    height: 50%; */
-    /* background-color: pink; */
     display: flex;
     flex-direction: column;
     justify-content: end;
-    /* display: inline-flex; */
-    /* align-items: end; */
-    /* text-align: left; */
     font: normal normal bold 18px/24px Segoe UI;
-    /* letter-spacing: 0px; */
     color: #707070;
-    /* opacity: 1; */
-
-
-
 }
 
 .titulo-artigo {}
 
 .texto-artigo {
-
     width: 780px;
     height: 50%;
     background-color: white;
@@ -405,8 +341,6 @@ a:hover {
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
-
-
 }
 
 /* funcionamento do responsive */
