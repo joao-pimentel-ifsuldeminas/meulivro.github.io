@@ -386,7 +386,7 @@ a:hover {
 
 /* funcionamento do responsive */
 
-/* Default styles for wider screens (min-width: 1200px) */
+
 .comprimento {
     width: 1200px;
 }
@@ -396,7 +396,7 @@ a:hover {
     flex-direction: row;
 }
 
-/* Adjustments for screens narrower than 1200px (max-width: 1200px) */
+
 @media (max-width: 1200px) {
     .comprimento {
         width: 100%;
@@ -404,13 +404,21 @@ a:hover {
 
     .bloco-artigo {
         flex-direction: column;
-        /* Change to a column layout */
+     
     }
 
     .img-artigo {
         width: 131px;
-        /* Adjust image width */
+     
         padding-right: 0;
-        /* Remove padding */
+       
+    }
+}
+
+@media (max-width:1200px) {
+
+    .descriçao {
+
+        margin-bottom: 25%;
     }
 }
