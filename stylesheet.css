@@ -347,6 +347,7 @@ a:hover {
     width: 100%;
     display: flex;
     flex-direction: row;
+
 }
 
 .img-artigo {
@@ -381,31 +382,35 @@ a:hover {
     color: #707070;
 }
 
+
+
 /* funcionamento do responsive */
 
+/* Default styles for wider screens (min-width: 1200px) */
+.comprimento {
+    width: 1200px;
+}
+
+.bloco-artigo {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Adjustments for screens narrower than 1200px (max-width: 1200px) */
 @media (max-width: 1200px) {
     .comprimento {
-        background-color: transparent;
-        width: 80%;
-    }
-}
-    @media (max-width: 1920px) {
-        #final {
-            background-color: transparent;
-            width: 100%;
-            height: 100%;
-        }
+        width: 100%;
     }
 
-@media (max-width: 1200px){
+    .bloco-artigo {
+        flex-direction: column;
+        /* Change to a column layout */
+    }
 
-    .artigo{
-
-       display: flex;
-       flex-direction: column;
-       background-color: #FE6C6C;
-       
-       
-
+    .img-artigo {
+        width: 131px;
+        /* Adjust image width */
+        padding-right: 0;
+        /* Remove padding */
     }
 }
