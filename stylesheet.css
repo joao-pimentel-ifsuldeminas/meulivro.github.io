@@ -358,7 +358,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: end;
-    /* width: 55%; */
 }
 
 .titulo-artigo {
@@ -368,11 +367,10 @@ a:hover {
     font-family: 'Segoe UI';
     line-height: 100%;
     font-style: normal;
-
 }
 
 .texto-artigo {
-    /* background-color: white; */
+   
     font-size: 18px;
     font-weight: normal;
     font-family: 'Segoe UI';
@@ -421,8 +419,7 @@ a:hover {
     }
 
     .img-artigo {
-        /* width: 131px; */
-
+        
         padding-right: 0;
         padding-bottom: 15px;
 
