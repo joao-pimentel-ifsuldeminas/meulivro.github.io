@@ -316,18 +316,13 @@ a:hover {
 .descriçao {
     width: 1200px;
     height: 120px;
-    text-align: center;
     margin-top: 40px;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Segoe UI';
     line-height: 100%;
-    font-style: normal;
     color: #707070;
 }
 
 .sub-descriçao {
-    
+
     text-align: left;
     font-size: 18px;
     font-weight: normal;
@@ -373,7 +368,7 @@ a:hover {
     font-family: 'Segoe UI';
     line-height: 100%;
     font-style: normal;
-    
+
 }
 
 .texto-artigo {
@@ -386,6 +381,17 @@ a:hover {
     color: #707070;
 }
 
+.titulo-seçao {
+
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Segoe UI';
+    color: #707070;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
 
 
 /* funcionamento do responsive */
@@ -409,17 +415,18 @@ a:hover {
     .artigo {
         width: 100%;
     }
+
     .bloco-artigo {
         flex-direction: column;
-     
+
     }
 
     .img-artigo {
         /* width: 131px; */
-     
+
         padding-right: 0;
         padding-bottom: 15px;
-       
+
     }
 }
 
