@@ -1,3 +1,14 @@
+:root {
+
+    --background-color-topo: rgb(43, 151, 43);
+    --color: black;
+    --background-color-final: rgb(21, 136, 21);
+    --font-weight-titulos: bold;
+    --font-weight-texto: normal;
+    --font-family: arial;
+
+}
+
 .centralizado {
     margin: 0 auto;
 }
@@ -8,7 +19,7 @@
 }
 
 .topo {
-    background-color: #000000;
+    background-color: var(--background-color-topo);
     width: 100%;
     height: 61px;
 }
@@ -20,32 +31,32 @@
 .link-sub-topo-pagina-inicial {
 
     font-size: 16px;
-    font-weight: normal;
-    font-family: 'Segoe UI';
+    font-weight: var(--font-weight-texto);
+    font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
-    color: #707070;
+    color: var(--color-topo);
     text-decoration: none;
 
 }
 
 .link-sub-topo-fale-conosco {
-    color: #707070;
+    color: var(--color-topo);
     text-decoration: none;
 }
 
 .enviada {
     font-size: 20px;
-    font-weight: bold;
-    font-family: 'Segoe UI';
+    font-weight: var(--font-weight-titulos);
+    font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
     margin-top: 31px;
-    color: #707070;
+    color: var(--color-topo);
 }
 
 .menu {
-    background-color: #000000;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -55,11 +66,11 @@
 
 .link-meu-livro {
     font-size: 25px;
-    font-weight: normal;
-    font-family: 'Segoe UI';
+    font-weight: var(--font-weight-texto);
+    font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
-    color: #c4c4c4;
+    color: var(--color-topo);
     text-decoration: none;
 }
 
@@ -67,11 +78,11 @@
 
 .link-fale-conosco {
     font-size: 16px;
-    font-weight: normal;
-    font-family: 'Segoe UI';
+    font-weight: var(--font-weight-texto);
+    font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
-    color: #c4c4c4;
+    color: var(--color-topo);
     text-decoration: none;
 }
 
@@ -79,7 +90,7 @@
     background-color: #e4dddd;
     min-height: 300px;
     text-align: left;
-    color: #707070;
+    color: var(--color-topo);
 }
 
 .miolo-pagina {
@@ -107,17 +118,17 @@ button {
 }
 
 .link-button {
-    color: #707070;
+    color: var(--color-topo);
     text-decoration: none;
     font-size: 16px;
-    font-weight: bold;
-    font-family: 'Segoe UI';
+    font-weight: var(--font-weight-titulos);
+    font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
 }
 
 .final {
-    background-color: #cccccc;
+    background-color: var(--background-color-final);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -128,11 +139,11 @@ button {
 .rodape {
     text-align: center;
     font-size: 18px;
-    font-weight: normal;
-    font-family: 'Segoe UI';
+    font-weight: var(--font-weight-texto);
+    font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
-    color: #707070;
+    color: var(--color-topo);
 }
 
 /* Pagina Fale Conosco */
@@ -141,22 +152,22 @@ button {
     height: 45px;
     text-align: left;
     font-size: 18px;
-    font-weight: normal;
-    font-family: 'Segoe UI';
+    font-weight: var(--font-weight-texto);
+    font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
-    color: #707070;
+    color: var(--color-topo);
     margin-top: 30px;
 }
 
 form {
     text-align: left;
     font-size: 18px;
-    font-weight: bold;
-    font-family: 'Segoe UI';
+    font-weight: var(--font-weight-titulos);
+    font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
-    color: #707070;
+    color: var(--color-topo);
 }
 
 .box {
@@ -253,32 +264,32 @@ input#mensagem.inputuser {
     margin-top: 30px;
     text-align: left;
     font-size: 20px;
-    font-weight: bold;
-    font-family: 'Segoe UI';
+    font-weight: var(--font-weight-titulos);
+    font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
-    color: #707070;
+    color: var(--color-topo);
     margin-bottom: 45px;
 }
 
 .Texto-queremos-ouvir {
     text-align: left;
     font-size: 18px;
-    font-weight: normal;
-    font-family: 'Segoe UI';
+    font-weight: var(--font-weight-texto);
+    font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
-    color: #707070;
+    color: var(--color-topo);
     margin-bottom: 40px;
 }
 
 p.queremos-ouvir {
     font-size: 24px;
-    font-weight: normal;
-    font-family: 'Segoe UI';
+    font-weight: var(--font-weight-texto);
+    font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
-    color: #707070;
+    color: var(--color-topo);
 }
 
 .texto-vermelho {
@@ -286,8 +297,8 @@ p.queremos-ouvir {
     background-color: #FE6C6C;
     text-align: left;
     font-size: 16px;
-    font-weight: normal;
-    font-family: 'Segoe UI';
+    font-weight: var(--font-weight-texto);
+    font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
     color: #FFFFFF;
@@ -318,18 +329,18 @@ a:hover {
     height: 120px;
     margin-top: 40px;
     line-height: 100%;
-    color: #707070;
+    color: var(--color-topo);
 }
 
 .sub-descriçao {
 
     text-align: left;
     font-size: 18px;
-    font-weight: normal;
-    font-family: 'Segoe UI';
+    font-weight: var(--font-weight-texto);
+    font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
-    color: #707070;
+    color: var(--color-topo);
 }
 
 .artigo {
@@ -344,6 +355,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     background-color: transparent;
+    margin-bottom: 45px;
 
 }
 
@@ -363,28 +375,29 @@ a:hover {
 .titulo-artigo {
 
     font-size: 20px;
-    font-weight: bold;
-    font-family: 'Segoe UI';
+    font-weight: var(--font-weight-titulos);
+    font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
+    margin-bottom: 10px;
 }
 
 .texto-artigo {
-   
+
     font-size: 18px;
-    font-weight: normal;
-    font-family: 'Segoe UI';
+    font-weight: var(--font-weight-texto);
+    font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
-    color: #707070;
+    color: var(--color-topo);
 }
 
 .titulo-secao {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: var(--font-weight-titulos);
     font-style: normal;
-    font-family: 'Segoe UI';
-    color: #707070;
+    font-family: var(--font-family);
+    color: var(--color-topo);
     text-align: center;
     margin-top: 40px;
     margin-bottom: 45px;
@@ -419,7 +432,7 @@ a:hover {
     }
 
     .img-artigo {
-        
+
         padding-right: 0;
         padding-bottom: 15px;
 
