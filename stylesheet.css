@@ -431,9 +431,13 @@ a:hover {
     
     margin-top: 10px;
     text-align: left;
-    font: normal normal bold 18px/24px Segoe UI;
+    font-size: 18px;
+    font-weight: var(--font-weight-titulos);
+    font-style: normal;
+    font-family: var(--font-family);
+    color: var(--color-topo);
     letter-spacing: 0px;
-    color: #707070;
+    color:var(--color);
     opacity: 1;
 }
 
@@ -441,9 +445,13 @@ a:hover {
 
     margin-top: 10px;
     text-align: left;
-    font: normal normal normal 16px/21px Segoe UI;
+    font-size: 16px;
+    font-weight: var(--font-weight-texto);
+    font-style: normal;
+    font-family: var(--font-family);
+    color: var(--color-topo);
     letter-spacing: 0px;
-    color: #707070;
+    color:var(--color);
     opacity: 1;
 }
 /* funcionamento do responsive */
@@ -481,6 +489,24 @@ a:hover {
     }
 }
 
+@media (max-width: 1200px) {
+
+    .comprimento {
+        width: 100%;
+    }
+
+    .descriçao {
+
+        width: 100%;
+    }
+
+    .bloco-recomendacao{
+
+        flex-direction: column;
+    }
+
+    
+}
 @media (max-width:1200px) {
 
     .descriçao {
