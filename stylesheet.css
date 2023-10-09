@@ -1,14 +1,17 @@
+body {
+
+    min-width: 300px;
+}
+
 :root {
-
-
-    --background-color-topo: #707070;
-    --color-topo: rgb(0, 0, 0);
-    --background-color-final: #707070;
+    --background-color-topo: black;
+    --color-topo: #C4C4C4;
+    --background-color-final: #CCCCCC;
+    --background-color-pagina: #ffffff;
+    --color-pagina-inteira: #707070;
     --font-weight-titulos: bold;
     --font-weight-texto: normal;
     --font-family: arial;
-
-
 
 }
 
@@ -44,7 +47,7 @@
     font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
-    color: var(--color-topo);
+    color: var(--color-pagina-inteira);
     text-decoration: none;
 
 
@@ -52,7 +55,7 @@
 
 
 .link-sub-topo-fale-conosco {
-    color: var(--color-topo);
+    color: var(--color-pagina-inteira);
     text-decoration: none;
 }
 
@@ -106,16 +109,16 @@
 
 
 .meio {
-    background-color: #e4dddd;
+    background-color: var(--background-color-pagina);
     min-height: 300px;
     text-align: left;
-    color: var(--color-topo);
+    color: var(--color-pagina-inteira);
 }
 
 
 .miolo-pagina {
+    background-color: var(--background-color-pagina);
     min-height: 183px;
-    background-color: #ffffff;
     border: #707070 1px solid;
     margin-top: 33px;
     margin-bottom: 506px;
@@ -124,6 +127,7 @@
 
 .conteudo-do-miolo {
     padding: 20px;
+    background-color: var(--background-color-pagina);
 }
 
 
@@ -141,7 +145,7 @@ button {
 
 
 .link-button {
-    color: var(--color-topo);
+    color: var(--color-pagina-inteira);
     text-decoration: none;
     font-size: 16px;
     font-weight: var(--font-weight-titulos);
@@ -156,7 +160,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 200px;
+    margin-top: 50px;
     margin-bottom: 0 auto;
 }
 
@@ -168,7 +172,7 @@ button {
     font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
-    color: var(--color-topo);
+    color: var(--color-pagina-inteira);
 }
 
 
@@ -183,7 +187,7 @@ button {
     font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
-    color: var(--color-topo);
+    color: var(--color-pagina-inteira);
     margin-top: 30px;
 }
 
@@ -195,7 +199,7 @@ form {
     font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
-    color: var(--color-topo);
+    color: var(--color-pagina-inteira);
 }
 
 
@@ -311,7 +315,7 @@ input#mensagem.inputuser {
     font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
-    color: var(--color-topo);
+    color: var(--color-pagina-inteira);
     margin-bottom: 45px;
 }
 
@@ -323,7 +327,7 @@ input#mensagem.inputuser {
     font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
-    color: var(--color-topo);
+    color: var(--color-pagina-inteira);
     margin-bottom: 40px;
 }
 
@@ -334,7 +338,7 @@ p.queremos-ouvir {
     font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
-    color: var(--color-topo);
+    color: var(--color-pagina-inteira);
 }
 
 
@@ -381,7 +385,7 @@ a:hover {
     height: 120px;
     margin-top: 40px;
     line-height: 100%;
-    color: var(--color-topo);
+    color: var(--color-pagina-inteira);
 }
 
 
@@ -394,7 +398,7 @@ a:hover {
     font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
-    color: var(--color-topo);
+    color: var(--color-pagina-inteira);
 }
 
 
@@ -452,7 +456,7 @@ a:hover {
     font-family: var(--font-family);
     line-height: 100%;
     font-style: normal;
-    color: var(--color-topo);
+    color: var(--color-pagina-inteira);
 }
 
 
@@ -461,7 +465,7 @@ a:hover {
     font-weight: var(--font-weight-titulos);
     font-style: normal;
     font-family: var(--font-family);
-    color: var(--color-topo);
+    color: var(--color-pagina-inteira);
     text-align: center;
     margin-top: 40px;
     margin-bottom: 45px;
@@ -471,143 +475,144 @@ a:hover {
 .recomendacao {
 
 
-        width: 827px;
-        height: 285px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+    width: 827px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
 
 
+}
+
+
+
+.img-recomendacao {
+
+    width: 169px;
+    height: 220px;
+}
+
+.conteudo-recomendacao {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-recomendacao {
+
+
+
+    margin-top: 10px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: var(--font-weight-titulos);
+    font-style: normal;
+    font-family: var(--font-family);
+    color: var(--color-topo);
+    letter-spacing: 0px;
+
+    color: var(--color-pagina-inteira);
+    opacity: 1;
+}
+
+.texto-recomendacao {
+
+
+    margin-top: 10px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: var(--font-weight-texto);
+    font-style: normal;
+    font-family: var(--font-family);
+    color: var(--color-pagina-inteira);
+    letter-spacing: 0px;
+
+    color: var(--color);
+    opacity: 1;
+}
+
+/* funcionamento do responsive */
+
+
+
+
+.comprimento {
+    width: 1200px;
+}
+
+
+.bloco-artigo {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+@media (max-width: 1200px ) {
+    .menu a{
+
+        padding: 0 15px;
     }
-
-    .img-recomendacao {
-
-        width: 169px;
-        height: 220px;
-    }
-
-    .conteudo-recomendacao {
-
-        display: flex;
-        flex-direction: column;
-    }
-
-    .titulo-recomendacao {
-
-
-
-        margin-top: 10px;
-        text-align: left;
-        font-size: 18px;
-        font-weight: var(--font-weight-titulos);
-        font-style: normal;
-        font-family: var(--font-family);
-        color: var(--color-topo);
-        letter-spacing: 0px;
-
-        color: var(--color);
-        opacity: 1;
-    }
-
-    .texto-recomendacao {
-
-
-        margin-top: 10px;
-        text-align: left;
-        font-size: 16px;
-        font-weight: var(--font-weight-texto);
-        font-style: normal;
-        font-family: var(--font-family);
-        color: var(--color-topo);
-        letter-spacing: 0px;
-
-        color: var(--color);
-        opacity: 1;
-    }
-
-    /* funcionamento do responsive */
-
-
-
-
     .comprimento {
-        width: 1200px;
+        width: 100%;
+    }
+
+
+    .artigo {
+        width: 100%;
     }
 
 
     .bloco-artigo {
-        display: flex;
-        flex-direction: row;
+        flex-direction: column;
+
+
     }
 
 
+    .img-artigo {
 
 
-    @media (max-width: 1200px) {
-        .comprimento {
-            width: 100%;
-        }
-
-
-        .artigo {
-            width: 100%;
-        }
-
-
-        .bloco-artigo {
-            flex-direction: column;
-
-
-        }
-
-
-        .img-artigo {
-
-
-            padding-right: 0;
-            padding-bottom: 15px;
-
-
-        }
-    }
-
-
-    @media (max-width: 1200px) {
-
-        .comprimento {
-            width: 100%;
-        }
-
-
-        .descriçao {
-
-            width: 100%;
-        }
-
-        .bloco-recomendacao {
-
-            flex-direction: column;
-            margin-right: 10px;
-        }
-
-        .img-recomendacao {
-
-            width: 100%;
-            
-        }
-
+        padding-right: 0;
+        padding-bottom: 15px;
         
 
 
     }
-
-    @media (max-width:1200px) {
-
-
-        .descriçao {
+}
 
 
-            margin-bottom: 25%;
-        }
+@media (max-width: 1200px) {
+
+    .comprimento {
+        width: 100%;
     }
+
+
+    .descriçao {
+
+        width: 100%;
+    }
+
+    .recomendacao{
+
+        flex-direction: column;
+    }
+    .bloco-recomendacao {
+
+        flex-direction: column;
+        margin-right: 10px;
+        margin-bottom: 45px;
+    }
+
+    .img-recomendacao {
+
+       
+
+    }
+
+
+
+
+}
