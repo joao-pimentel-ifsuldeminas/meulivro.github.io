@@ -1,8 +1,8 @@
 :root {
 
-    --background-color-topo: rgb(43, 151, 43);
-    --color: black;
-    --background-color-final: rgb(21, 136, 21);
+    --background-color-topo: #707070;
+    --color-topo: rgb(0, 0, 0);
+    --background-color-final: #707070;
     --font-weight-titulos: bold;
     --font-weight-texto: normal;
     --font-family: arial;
