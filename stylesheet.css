@@ -1,11 +1,13 @@
 :root {
 
---background-color-topo: #707070;
---color-topo: rgb(0, 0, 0);
---background-color-final: #707070;
---font-weight-titulos: bold;
---font-weight-texto: normal;
---font-family: arial;
+
+    --background-color-topo: #707070;
+    --color-topo: rgb(0, 0, 0);
+    --background-color-final: #707070;
+    --font-weight-titulos: bold;
+    --font-weight-texto: normal;
+    --font-family: arial;
+
 
 
 }
@@ -466,147 +468,139 @@ a:hover {
     flex-direction: row;
 }
 
-
 .recomendacao {
 
 
-    width: 827px;
-    height: 285px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    .recomendacao {
 
-
-}
-
-
-.img-recomendacao {
-
-
-    width: 169px;
-    height: 220px;
-}
-
-.conteudo-recomendacao {
-
-
-    display: flex;
-    flex-direction: column;
-    
-}
-
-
-.titulo-recomendacao {
-    margin-top: 10px;
-    text-align: left;
-    font-size: 18px;
-    font-weight: var(--font-weight-titulos);
-    font-style: normal;
-    font-family: var(--font-family);
-    color: var(--color-topo);
-    letter-spacing: 0px;
-    color: var(--color);
-    opacity: 1;
-}
-
-
-.texto-recomendacao {
-
-
-    margin-top: 10px;
-    text-align: left;
-    font-size: 16px;
-    font-weight: var(--font-weight-texto);
-    font-style: normal;
-    font-family: var(--font-family);
-    color: var(--color-topo);
-    letter-spacing: 0px;
-    color: var(--color);
-    opacity: 1;
-}
-
-/* funcionamento do responsive */
+        width: 827px;
+        height: 285px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
 
 
 
-
-.comprimento {
-    width: 1200px;
-}
-
-
-.bloco-artigo {
-    display: flex;
-    flex-direction: row;
-}
-
-
-
-
-@media (max-width: 1200px) {
-    .comprimento {
-        width: 100%;
-    }
-
-
-    .artigo {
-        width: 100%;
-    }
-
-
-    .bloco-artigo {
-        flex-direction: column;
-
-
-    }
-
-
-    .img-artigo {
-
-
-        padding-right: 0;
-        padding-bottom: 15px;
-
-
-    }
-}
-
-
-@media (max-width: 1200px) {
-
-
-    .comprimento {
-        width: 100%;
-    }
-
-
-    .descriçao {
-
-
-        width: 100%;
-    }
-
-
-    .bloco-recomendacao {
-
-
-        flex-direction: column;
-        margin-right: 10px;
     }
 
     .img-recomendacao {
 
-        width: 100%;
+        width: 169px;
+        height: 220px;
     }
 
-}
+    .conteudo-recomendacao {
 
-@media (max-width:1200px) {
-
-
-    .descriçao {
-
-
-        margin-bottom: 25%;
+        display: flex;
+        flex-direction: column;
     }
-}
+
+    .titulo-recomendacao {
+
+
+
+        margin-top: 10px;
+        text-align: left;
+        font-size: 18px;
+        font-weight: var(--font-weight-titulos);
+        font-style: normal;
+        font-family: var(--font-family);
+        color: var(--color-topo);
+        letter-spacing: 0px;
+
+        color: var(--color);
+        opacity: 1;
+    }
+
+    .texto-recomendacao {
+
+
+        margin-top: 10px;
+        text-align: left;
+        font-size: 16px;
+        font-weight: var(--font-weight-texto);
+        font-style: normal;
+        font-family: var(--font-family);
+        color: var(--color-topo);
+        letter-spacing: 0px;
+
+        color: var(--color);
+        opacity: 1;
+    }
+
+    /* funcionamento do responsive */
+
+
+
+
+    .comprimento {
+        width: 1200px;
+    }
+
+
+    .bloco-artigo {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+
+    @media (max-width: 1200px) {
+        .comprimento {
+            width: 100%;
+        }
+
+
+        .artigo {
+            width: 100%;
+        }
+
+
+        .bloco-artigo {
+            flex-direction: column;
+
+
+        }
+
+
+        .img-artigo {
+
+
+            padding-right: 0;
+            padding-bottom: 15px;
+
+
+        }
+    }
+
+
+    @media (max-width: 1200px) {
+
+        .comprimento {
+            width: 100%;
+        }
+
+
+        .descriçao {
+
+            width: 100%;
+        }
+
+        .bloco-recomendacao {
+
+            flex-direction: column;
+        }
+
+
+    }
+
+    @media (max-width:1200px) {
+
+
+        .descriçao {
+
+
+            margin-bottom: 25%;
+        }
+    }
