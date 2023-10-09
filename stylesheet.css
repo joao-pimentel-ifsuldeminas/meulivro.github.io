@@ -471,8 +471,6 @@ a:hover {
 .recomendacao {
 
 
-    .recomendacao {
-
         width: 827px;
         height: 285px;
         display: flex;
@@ -590,7 +588,16 @@ a:hover {
         .bloco-recomendacao {
 
             flex-direction: column;
+            margin-right: 10px;
         }
+
+        .img-recomendacao {
+
+            width: 100%;
+            
+        }
+
+        
 
 
     }
