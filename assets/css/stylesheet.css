@@ -257,13 +257,12 @@ fieldset {
 
 .submit-direito {
     margin-top: 0;
-    width: 95px;
-    background: #ffffff 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    border-radius: 20px;
-    opacity: 1;
-    cursor: pointer;
+    width: 95px;ground-color: var(--background-color-pagina);
+    min-height: 300px;
+    text-align: left;
+    color: var(--color-pagina-inteira);
 }
+
 
 
 img {
@@ -459,6 +458,44 @@ a:hover {
     color: var(--color-pagina-inteira);
 }
 
+.alternador-de-pagina {
+
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid yellow;
+    
+}
+
+.alternador-de-pagina-1 {
+
+    width: 50px;
+    height: 30px;
+    background-color: green;
+    color: black;
+    padding-top: 15px;
+    
+}
+
+.alternador-de-pagina-2 {
+    width: 50px;
+    height: 30px;
+    color: black;
+    background-color: #cc3a3a;
+    padding-top: 15px;
+    
+}
+
+.alternador-de-pagina-3 {
+    width: 50px;
+    height: 30px;
+    color: black;
+    background-color: blue;
+    padding-top: 15px;
+    
+}
 
 .titulo-secao {
     font-size: 18px;
